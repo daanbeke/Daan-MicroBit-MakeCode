@@ -15,6 +15,9 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("iets vertellen")
     music.playMelody("C E - D G - A D ", 285)
 })
-input.onSound(DetectedSound.Loud, function () {
-	
+input.onButtonPressed(Button.B, function () {
+    for (let index = 0; index < 4; index++) {
+        led.plot(1, 2)
+    }
 })
+music.playMelody("- C5 - - - - - - ", 120)

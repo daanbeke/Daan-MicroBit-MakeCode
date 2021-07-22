@@ -1,0 +1,10 @@
+def on_button_pressed_a():
+    basic.show_string("Hello!")
+    basic.show_string("ik ben")
+    basic.show_string("daan")
+    music.play_melody("C E - D G - A D ", 285)
+    basic.show_string("ik ga jullie")
+    music.play_melody("E C B G F A C5 D ", 285)
+    basic.show_string("iets vertellen")
+    music.play_melody("C E - D G - A D ", 285)
+input.on_button_pressed(Button.A, on_button_pressed_a)
